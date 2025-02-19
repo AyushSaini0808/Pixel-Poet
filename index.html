@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Poet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/pol.webp" type="image/x-icon">
+</head>
+<body>
+<header>
+    <h1>PIXEL POET</h1>
+    <p> Upload an image and obtain the corresponding ASCII <span>masterpiece</span></p>
+    <p></p>
+    <br><br><br>
+    <main>
+        <div class="gallery-container">
+        <span class="gallery-span">Gallery</span>
+            <br>
+        <div class="grid-container">
+            <img src="assets/Screenshot%202025-02-19%20at%206.34.59%E2%80%AFPM.png"/>
+            <img src="assets/Screenshot%202025-02-19%20at%206.33.57%E2%80%AFPM.png"/>
+            <img src="assets/Screenshot%202025-02-19%20at%206.38.47%E2%80%AFPM.png"/>
+            <img src="assets/Screenshot%202025-02-19%20at%206.39.49%E2%80%AFPM.png"/>
+            <img src="assets/Screenshot%202025-02-19%20at%206.48.41%E2%80%AFPM.png"/>
+            <img src="assets/Screenshot%202025-02-19%20at%207.02.51%E2%80%AFPM.png"/>
+        </div>
+        </div>
+        <input type="file" name="file" id="file-uploader">
+        <label for="file-uploader" id="upload">Select Image from your device</label>
+        <br><br><br>
+        <canvas id="preview" style="display: none;"></canvas>
+        <pre id="ascii"></pre>
+    </main>
+</header>
+<script src="main.js"></script>
+</body>
+</html>
